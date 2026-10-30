@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX.DEV | Portfolio</title>
+
+    <meta name="description" content="Frontend developer turning logic into interfaces that just work.">
+    <meta property="og:title" content="MX.DEV | Portfolio">
+    <meta property="og:description" content="Frontend developer turning logic into interfaces that just work.">
+    <meta property="og:image" content="assets/images/og-image.webp">
+    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="#050505">
+    <link rel="icon" href="MXO.Code-2.png">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-[#050505] text-white">
+
+    <!-- HERO -->
+    <main id="page1">
+        <header>
+            <nav class="flex justify-center relative text-center">
+                <div class="navbar flex items-center justify-between">
+                    <div class="logo flex items-center justify-center pl-0 md:justify-start md:pl-12">
+                        <img src="MXO.Code-2.png" width="23" alt="MX.DEV logo">
+                        <a href="#home">X.DEV</a>
+                    </div>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#features">Features</a>
+                    <a href="https://github.com/iammzeeshan" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a class="hidden md:flex items-center justify-center pl-12" id="letstalk" href="#contact">
+                        Let's Talk
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="text-center">
+            <p class="lines-tag">FROM FIGMA TO FUNCTIONAL.</p>
+
+            <h1 class="headline-tag">
+                DESIGNING EXPERIENCES,<br>
+                BUILDING THE WEB.
+            </h1>
+
+            <div class="sub-tag">
+                <p>I'm a web designer and frontend developer who turns ideas into clean, responsive web experiences.</p>
+                <p>I craft modern UI designs in Figma and bring them to life with HTML, CSS, JavaScript, Tailwind CSS,
+                    and GSAP.</p>
+            </div>
+
+            <div class="hero-buttons flex justify-center items-center flex-wrap">
+                <a class="workbox" href="#projects">
+                    <i class="ri-briefcase-line"></i> VIEW MY WORK
+                </a>
+                <a class="dwnlod" href="assets/docs/Md-Zeeshan-Resume.pdf" download>
+                    <i class="ri-arrow-down-circle-fill"></i> download cv
+                </a>
+            </div>
+
+            <div id="scrollarrow">
+                scroll to explore
+                <br><br>
+                <a href="#projects" aria-label="Scroll to projects">
+                    <i class="ri-arrow-down-double-line"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section px-4 sm:px-6 lg:px-10">
+        <div class="section-heading text-center">
+            <p class="section-kicker">A LITTLE ABOUT ME</p>
+            <h2>DESIGN-MINDED <span>DEVELOPER.</span></h2>
+        </div>
+
+        <div class="about-content text-center">
+            <p class="section-description">
+                I'm a curious web designer and frontend developer who enjoys turning bold ideas into clean, responsive
+                digital experiences.<br> I create thoughtful interfaces in Figma and bring them to life with HTML, CSS,
+                JavaScript, Tailwind CSS, and GSAP.
+            </p>
+            <p class="section-description">
+                When I'm not building for the web, you'll find me exploring fresh design ideas, learning new tools, and
+                refining the little details that make a product feel special.<br> Lorem ipsum dolor sit amet,
+                consectetur
+                adipisicing elit.
+            </p>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section id="projects" class="project-section px-4 sm:px-6 lg:px-10">
+        <div class="section-heading text-center">
+            <p class="section-kicker">WHAT I'VE BUILT</p>
+            <h2>FEATURED <span>PROJECTS.</span></h2>
+            <p class="section-description">
+                A selection of designs and digital experiences.
+            </p>
+        </div>
+
+        <div id="box" class="project-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <a id="box1" class="project-card block" href="https://iammzeeshan.github.io/snake-game/" target="_blank"
+                rel="noopener noreferrer" aria-label="Play Snake Game">
+                <span class="project-overlay">
+                    <span>Snake Game</span>
+                    <i class="ri-arrow-up-right-line"></i>
+                </span>
+            </a>
+
+            <a id="box2" class="project-card block" href="#contact" aria-label="AI image generation website project">
+                <span class="project-overlay">
+                    <span>AI Image Studio</span>
+                    <i class="ri-arrow-up-right-line"></i>
+                </span>
+            </a>
+
+            <a id="box3" class="project-card block" href="#contact" aria-label="Third portfolio project">
+                <span class="project-overlay">
+                    <span>Creative Project</span>
+                    <i class="ri-arrow-up-right-line"></i>
+                </span>
+            </a>
+
+            <a id="box4" class="project-card block" href="#contact" aria-label="Pumpkin creative agency project">
+                <span class="project-overlay">
+                    <span>Pumpkin Agency</span>
+                    <i class="ri-arrow-up-right-line"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features-section px-4 sm:px-6 lg:px-10">
+        <div class="section-heading text-center">
+            <p class="section-kicker">MY EXPERTISE</p>
+            <h2>WHAT I <span>DO.</span></h2>
+            <p class="section-description">
+                Turning ideas into thoughtful digital experiences.
+            </p>
+        </div>
+
+        <div class="features-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <article class="feature-card">
+                <i class="ri-layout-4-line"></i>
+                <h3>UI/UX DESIGN</h3>
+                <p>Designing clean, intuitive interfaces with a focus on usability and visual consistency.</p>
+                <span class="feature-number">01</span>
+            </article>
+
+            <article class="feature-card">
+                <i class="ri-code-s-slash-line"></i>
+                <h3>FRONTEND DEVELOPMENT</h3>
+                <p>Building responsive web experiences using HTML, CSS, JavaScript and modern frontend tools.</p>
+                <span class="feature-number">02</span>
+            </article>
+
+            <article class="feature-card">
+                <i class="ri-smartphone-line"></i>
+                <h3>RESPONSIVE DESIGN</h3>
+                <p>Creating layouts that adapt smoothly to mobile, tablet and desktop screens.</p>
+                <span class="feature-number">03</span>
+            </article>
+
+            <article class="feature-card">
+                <i class="ri-magic-line"></i>
+                <h3>INTERACTIONS</h3>
+                <p>Adding subtle animations and interactive details to make websites feel more engaging.</p>
+                <span class="feature-number">04</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section id="contact" class="contact-section text-center px-4 sm:px-6">
+        <p class="section-kicker">HAVE A PROJECT IN MIND?</p>
+        <h2>
+            LET'S BUILD<br>
+            SOMETHING <span>GREAT.</span>
+        </h2>
+        <p>Have an idea? Let's turn it into a digital experience.</p>
+        <a class="contact-button" href="mailto:iammzeeshan2314@gmail.com">
+            LET'S TALK <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer px-4 sm:px-6 lg:px-10">
+        <div class="mx-auto w-full max-w-7xl">
+
+            <div
+                class="footer-content grid grid-cols-1 gap-9 py-10 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-12 lg:py-14">
+
+                <!-- About Me -->
+                <div class="min-w-0">
+                    <h3 class="mb-4 text-2xl font-semibold text-gray-400">
+                        About Me
+                    </h3>
+                    <p class="text-sm leading-7 text-white">
+                        I'm Zeeshan, a Frontend Developer passionate about building modern, responsive, and
+                        user-friendly websites using HTML, CSS, JavaScript, and modern frontend technologies.
+                    </p>
+                    <p class="mt-3 text-sm leading-7 text-white">
+                        I enjoy building projects, exploring new ideas, and continuously improving my development
+                        skills.
+                    </p>
+                </div>
+
+                <!-- Explore -->
+                <nav class="min-w-0 text-left" aria-label="Footer navigation">
+                    <h3 class="mb-4 text-base font-semibold text-white">Explore</h3>
+                    <ul class="flex flex-col items-start gap-3 text-sm text-white/60">
+                        <li><a href="#home" class="transition-colors hover:text-white">Home</a></li>
+                        <li><a href="#about" class="transition-colors hover:text-white">About Me</a></li>
+                        <li><a href="#projects" class="transition-colors hover:text-white">Projects</a></li>
+                        <li><a href="#features" class="transition-colors hover:text-white">Skills &amp; Expertise</a>
+                        </li>
+                        <li><a href="#contact" class="transition-colors hover:text-white">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Skills -->
+                <div class="min-w-0">
+                    <h3 class="mb-4 text-base font-semibold text-white">What I Do</h3>
+                    <ul class="flex flex-col items-start gap-3 text-sm text-white/60">
+                        <li>Frontend Development</li>
+                        <li>Responsive Web Design</li>
+                        <li>HTML, CSS &amp; JavaScript</li>
+                        <li>React Development</li>
+                        <li>Tailwind CSS</li>
+                        <li>UI Design with Figma</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="min-w-0">
+                    <h3 class="mb-4 text-base font-semibold text-white">Let's Connect</h3>
+                    <p class="mb-5 text-sm leading-7 text-white/60">
+                        Open to frontend internships, web development projects, and collaborations. Have an idea? Let's
+                        build something great together.
+                    </p>
+
+                    <a href="mailto:iammzeeshan2314@gmail.com"
+                        class="flex w-full min-w-0 items-start gap-2 text-sm text-white/80 transition-colors hover:text-white">
+                        <i class="ri-mail-line shrink-0"></i>
+                        <span class="min-w-0 break-all ">iammzeeshan2314@gmail.com</span>
+                    </a>
+
+                    <a href="#contact"
+                        class="mt-5 inline-flex w-fit max-w-full items-center gap-2 rounded-full border border-white/20 px-4 py-2.5 text-sm text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-black">
+                        Get in Touch <i class="ri-arrow-up-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-white/10"></div>
+
+            <!-- Brand + Social Links -->
+            <div class="footer-inner flex flex-col items-center justify-between gap-6 py-7 md:flex-row md:gap-5">
+                <a class="footer-logo" href="#home">
+                    <img src="MXO.Code-2.png" width="23" height="23" alt="MX.DEV logo">
+                    <span>X.DEV</span>
+                </a>
+
+                <div class="footer-socials flex flex-wrap items-center justify-center gap-5 sm:gap-6">
+                    <a href="https://github.com/iammzeeshan" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/md-zeeshan-ismat/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://dribbble.com/iammzeeshan" target="_blank" rel="noopener noreferrer"
+                        aria-label="Dribbble"><i class="ri-dribbble-fill"></i></a>
+                    <a href="https://instagram.com/iam_mzeeshan" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://x.com/iam_mzeeshan7" target="_blank" rel="noopener noreferrer"
+                        aria-label="X (Twitter)"><i class="ri-twitter-x-fill"></i></a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom text-center">
+                <p>© <span id="current-year"></span> MX.DEV. DESIGNED &amp; BUILT WITH PASSION.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script src="js/scripts.js"></script>
+</body>
