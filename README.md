@@ -54,7 +54,7 @@ The downloadable CV is located at `assets/docs/CV.pdf` and linked via a direct-d
 ## 🔗 Connect
 
 - LinkedIn: [md-zeeshan-ismat](https://linkedin.com/in/md-zeeshan-ismat)
-- GitHub: [idiammzeeshan23](https://github.com/idiammzeeshan23)
+- GitHub: [iammzeeshan23](https://github.com/idiammzeeshan23)
 
 ## 📌 To-Do / Roadmap
 
