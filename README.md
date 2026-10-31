@@ -2,6 +2,10 @@
 
 Personal portfolio website showcasing frontend development work, built with a focus on smooth animations and performance.
 
+## Live Demo
+
+[click it here](https://iammzeeshan.github.io/My-Portfolio/?utm_source=chatgpt.com) <!-- enable via Settings → Pages → Source: main branch, if not already done -->
+
 ## 🚀 Features
 
 - Custom cursor effects
@@ -54,7 +58,7 @@ The downloadable CV is located at `assets/docs/CV.pdf` and linked via a direct-d
 ## 🔗 Connect
 
 - LinkedIn: [md-zeeshan-ismat](https://linkedin.com/in/md-zeeshan-ismat)
-- GitHub: [idiammzeeshan23](https://github.com/idiammzeeshan23)
+- GitHub: [iammzeeshan](https://github.com/iammzeeshan)
 
 ## 📌 To-Do / Roadmap
 
