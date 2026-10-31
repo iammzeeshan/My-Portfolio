@@ -2,6 +2,10 @@
 
 Personal portfolio website showcasing frontend development work, built with a focus on smooth animations and performance.
 
+## Live Demo
+
+[Play it here](https://iammzeeshan.github.io/my-portfolio/) <!-- enable via Settings → Pages → Source: main branch, if not already done -->
+
 ## 🚀 Features
 
 - Custom cursor effects
