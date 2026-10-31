@@ -362,6 +362,12 @@
         box-shadow: 0 0 23px var(--red);
     }
 
+    .design-text,
+    .developer-text {
+        display: inline-block;
+        will-change: transform, opacity;
+    }
+
     /* FOOTER (layout Tailwind classes se, yahan sirf look) */
     /* FONT UPDATED: Footer headings now match the Features titles. */
     .site-footer h3 {
