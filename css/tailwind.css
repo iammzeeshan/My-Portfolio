@@ -309,8 +309,8 @@
   .pl-0 {
     padding-left: 0px;
   }
-  .pl-12 {
-    padding-left: calc(var(--spacing) * 12);
+  .pl-2 {
+    padding-left: calc(var(--spacing) * 2);
   }
   .text-center {
     text-align: center;
@@ -715,6 +715,10 @@
   }
   .contact-button:hover {
     box-shadow: 0 0 23px var(--red);
+  }
+  .design-text, .developer-text {
+    display: inline-block;
+    will-change: transform, opacity;
   }
   .site-footer h3 {
     font-family: "Bebas Neue", sans-serif;
