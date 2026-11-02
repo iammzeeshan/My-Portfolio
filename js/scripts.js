@@ -11,6 +11,8 @@ projectCards.forEach((card) => {
     });
 });
 
+
+
 if (window.gsap && window.ScrollTrigger && window.SplitText) {
     gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -41,6 +43,25 @@ if (window.gsap && window.ScrollTrigger && window.SplitText) {
                 x: 110,
                 opacity: 0,
                 duration: 1,
+                ease: "power3.out"
+            }, "<");
+        aboutTl
+            .from("#projects .section-kicker", {
+                opacity: 0,
+                y: 14,
+                duration: 0.65,
+                ease: "power2.out"
+            })
+            .from("#projects .design-text", {
+                x: -110,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.out"
+            }, "-=0.2")
+            .from("#projects .developer-text", {
+                x: 110,
+                opacity: 0,
+                duration: 0.8,
                 ease: "power3.out"
             }, "<");
 
