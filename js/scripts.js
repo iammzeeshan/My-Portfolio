@@ -45,25 +45,49 @@ if (window.gsap && window.ScrollTrigger && window.SplitText) {
                 duration: 1,
                 ease: "power3.out"
             }, "<");
-        aboutTl
-            .from("#projects .section-kicker", {
+        const projectsSection = document.querySelector("#projects");
+        if (!projectsSection) {
+            return;
+        }
+
+        const projectsTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: projectsSection,
+                start: "top 75%",
+                toggleActions: "play none none reverse"
+            }
+        });
+
+        const projectsKicker = projectsSection.querySelector(".section-kicker");
+        const projectsDesignText = projectsSection.querySelector(".design-text");
+        const projectsDeveloperText = projectsSection.querySelector(".developer-text");
+
+        if (projectsKicker) {
+            projectsTl.from(projectsKicker, {
                 opacity: 0,
                 y: 14,
                 duration: 0.65,
                 ease: "power2.out"
-            })
-            .from("#projects .design-text", {
+            });
+        }
+
+        if (projectsDesignText) {
+            projectsTl.from(projectsDesignText, {
                 x: -110,
                 opacity: 0,
-                duration: 0.8,
+                duration: 1,
                 ease: "power3.out"
-            }, "-=0.2")
-            .from("#projects .developer-text", {
+            }, "-=0.2");
+        }
+
+        if (projectsDeveloperText) {
+            projectsTl.from(projectsDeveloperText, {
                 x: 110,
                 opacity: 0,
-                duration: 0.8,
+                duration: 1,
                 ease: "power3.out"
             }, "<");
+        }
 
         const paragraphSplits = Array.from(document.querySelectorAll(".scroll-opacity-text"))
             .map((paragraph) => SplitText.create(paragraph, {

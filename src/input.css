@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Build: npx @tailwindcss/cli -i ./css/input.css -o ./css/tailwind.css
+/* Build: npx @tailwindcss/cli -i ./src/input.css -o ./css/tailwind.css
    Sab custom CSS @layer me hai, taaki Tailwind utilities (px-4, py-10...) kaam karein. */
 
 @layer base {
@@ -246,7 +246,7 @@
     }
 
     #box2 {
-        background-image: url("../assets/images/ai-studio.jpg");
+        background-image: url("../assets/images/currency-converter.webp");
     }
 
     #box3 {

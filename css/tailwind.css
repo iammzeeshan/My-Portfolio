@@ -309,8 +309,8 @@
   .pl-0 {
     padding-left: 0px;
   }
-  .pl-2 {
-    padding-left: calc(var(--spacing) * 2);
+  .pl-2\.5 {
+    padding-left: calc(var(--spacing) * 2.5);
   }
   .text-center {
     text-align: center;
@@ -619,7 +619,7 @@
     background-image: url("../assets/images/snake.webp");
   }
   #box2 {
-    background-image: url("../assets/images/ai-studio.jpg");
+    background-image: url("../assets/images/currency-converter.webp");
   }
   #box3 {
     background-image: linear-gradient(145deg, #252525, #101010);
